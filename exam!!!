@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+    .block1
+    {
+    background-color: yellow;
+    height: 240px;
+    width: 600px;
+    border-top: 10px solid green;
+    border-left: 10px solid green;
+    }
+    .block2
+    {
+    background-color: yellow;
+    height: 240px;
+    width: 600px;
+    border-top: 10px solid blue;
+    border-right: 10px solid blue;
+    }
+    .block3
+    {
+    background-color: yellow;
+    height: 240px;
+    width: 600px;
+    border-bottom: 10px solid red;
+    border-left: 10px solid red;
+    }
+    .block4
+    {
+    background-color: yellow;
+    height: 1000px;
+    width: 2000px;
+    border-bottom: 10px solid red;
+    border-right: 10px solid red;
+    }
+    .block5
+    {
+    background-color: yellow;
+    height: 250px;
+    width: 600px;
+    border-right: 10px dotted red;
+    border-right-style: dotted 7;
+    border-left-style: dotted;
+    border-left: 10px dotted red;
+    }
+    .block6
+    {
+    background-color: yellow;
+    height: 240px;
+    width: 600px;
+    border-top: 10px double red;
+    border-bottom: 10px double red;
+    }
+
+    </style>
+  <title>Никита Матяшевич КНГА-18к</title>
+ </head>
+ <body>
+  <table width="100%" border="3" cellpadding="4" cellspacing="15" >
+  <tr align="center">
+    <td width="33.3333%"><h1 align=left>CSS text</h1><div class ="block1"><p>Каскадні таблиці стилів (англійською Cascading Style Sheets, CSS) — спеціальна мова, яку використовують для запису оформлення сторінок, написаних мовами розмітки даних.</p></div></td>
+      <td><h1 align=right>таблиці</h1><div class ="block2"><ul>
+  <li>1.Вступ до Web-технологій</li>
+    <ul>
+      <li>основні поняття веб-дизайну</li>
+      <li>Аспекти графічного дизайну</li>
+      <li>основні правила веб-дизайну</li>
+    </ul>
+  <li>2.макет Веб-сторінки</li>
+  <li>3.Графіка у дизайні</li>
+  <li>4.SVG</li>
+  <li>5.типографіка</li>
+  <li>6.Bootstrap</li>
+  <li>7.Worldpress</li>
+</ul></div></td>
+      <td width="33.3333%" height="1000px"><h1 align=left>SVG</h1><div class ="block3"><svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="70" rx="200" ry="55" fill="url(#grad1)" />
+  <ellipse cx="200" cy="75" rx="100" ry="105" fill="url(#grad2)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">KAISER_NIK</text>
+</svg></div></td>
+   </tr>
+   <tr align="center" height="500px">
+    <td colspan="2"rowspan="2" width="33.3333%" ><h1 align=right>Big frame</h1><div class ="block4"><p>Каскадні таблиці стилів (англійською Cascading Style Sheets, CSS) — спеціальна мова, яку використовують для запису оформлення сторінок, написаних мовами розмітки даних.</p></div></td>
+       <td width="33.3333%"><h1 align=center>picture</h1><div class ="block5"><p><img src="kaiser.jpg" width="150" height="212" alt="Kaiser Willhem II"></p>
+   <p>Kaiser Willhem II</div></td>
+   </tr>
+   <tr align="center" width="33.3333%" height="500px">
+    <td width="33.3333%"><h1 align=center>CSS</h1><div class ="block6"><p></p></div></td>
+   </tr>
+</table>
+    </body>
+</html>
